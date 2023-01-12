@@ -1,15 +1,15 @@
-const Home = () => {
+const Button = () => {
     const handleClick = () => {
         console.log ('results');
         }
 
     return (
-        <div className="home">
-            <h2>Homepage</h2>
+        <div className="button">
+            <h2>Search for Nonprofits</h2>
             <button onCLick={handleClick()}>Search</button>
         </div>
     );
 
 }
 
-export default Home;
+export default Button;

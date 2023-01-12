@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button';
 
 function App() {
+  const title = "Welcome to Unspam Yourself!!"
+
   return (
     <div className="App">
-      <h1>Welcome to Unspam Yourself</h1>
+      <h1>{title}</h1>
+      <Button/>
     </div>
   );
 }
+
 
 export default App;
